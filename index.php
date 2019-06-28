@@ -5,6 +5,7 @@
 	$conn=dbconn();
 
 	echo "git-hub commit test.";
+	echo "git test 2";
 	$pageSize='5'; // 한 페이지에 보여질 게시글 수
 	$pageTotal=mysqli_query($conn , "SELECT count(*) FROM user;");//전체게시글의 수
 	$pageTotalRow=mysqli_fetch_row($pageTotal);
