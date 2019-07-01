@@ -7,6 +7,7 @@
 	$num = $_POST["number"];
 	$type = $_POST["type"];
 
+
 	//게시판인지 댓글인지 알아야 한다.
 	//type 로 게시글이면 board 이고 댓글이면 reply 이다
 	//no 는 board일때는 board의 idx 가 오고
